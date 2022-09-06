@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class Actividad_5 {
+   
+    public static void main(String[] args) {
+        int X, Y;
+        int suma, resta, multi, divi, modu;
+        Scanner input= new Scanner (System.in);
+        System.out.print("Ingrese un primer numero: ");
+        X=input.nextInt();
+        System.out.print("Ingrese un segundo numero: ");
+        Y=input.nextInt();
+        suma=X+Y;
+        resta=X-Y;
+        multi=X*Y;
+        divi=X/Y;
+        modu=X%Y;
+        
+        System.out.println("X: " +X);
+        System.out.println("Y: " +Y);
+        System.out.println("Suma: " +suma);
+        System.out.println("Resta: " +resta);
+        System.out.println("Multiplicación: " +multi);
+        System.out.println("División: " +divi);
+        System.out.println("Módulo: " +modu);
+        
+    }
+    
+}
